@@ -1,23 +1,22 @@
 public class GeneralPractitioner extends HealthProfessional{
-    private final String  surgeryType;
+    private final String  clinic;
 
     // Constructor
     public GeneralPractitioner() {
         super();
-        this.surgeryType = "Default surgeryType";
+        this.clinic = "Default clinic";
     }
 
     // Constructor with parameters
-    public GeneralPractitioner(int id, String name, String profession, String surgeryType) {
+    public GeneralPractitioner(int id, String name, String profession, String clinic) {
         super(id, name, profession);
-        this.surgeryType = surgeryType;
+        this.clinic = clinic;
     }
 
     // Override printDetails method
     @Override
     public void printDetails() {
         super.printDetails();
-        System.out.println("surgeryType: " + surgeryType);
+        System.out.println("clinic: " + clinic);
     }
-
 }
