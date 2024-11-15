@@ -25,6 +25,13 @@ public class Appointment {
             System.out.println("Patient Name: " + patientName);
             System.out.println("Call: " + patientcall);
             System.out.println("Preferred Time: " + preferredTimeSlot);
+         // Calls the doctor's printDetails() method
+        if (selectedDoctor != null) {
+            System.out.println("Doctor Details:");
+            selectedDoctor.printDetails();
+        } else {
+            System.out.println("No doctor assigned.");
         }
-
+        }
 }
+
