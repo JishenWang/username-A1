@@ -4,6 +4,7 @@ public class AppointmentManager {
     public static void main(String[] args) {
         // Part 3 – Using classes and objects
         System.out.println("// Part 3 - Using classes and objects");
+        System.out.println("------------------------------");
 
         GeneralPractitioner gp1 = new GeneralPractitioner(1, "Dr. LuHaiou", "Attending physician", "City Clinic");
         GeneralPractitioner gp2 = new GeneralPractitioner(2, "Dr. LuoLiping", "Attending physician", "City Clinic");
@@ -24,6 +25,8 @@ public class AppointmentManager {
         System.out.println("------------------------------");
 
         // Part 5 – Collection of appointments
+        System.out.println("// Part 5 - Collection of appointments");
+        System.out.println("------------------------------");
         ArrayList<Appointment> appointmentList = new ArrayList<>();
 
         // Create some appointments
