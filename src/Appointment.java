@@ -1,6 +1,6 @@
 public class Appointment {
         private final String patientName;
-        private final String patientcall;
+        String patientcall;
         private final String preferredTimeSlot;
         private final HealthProfessional selectedDoctor;
     
